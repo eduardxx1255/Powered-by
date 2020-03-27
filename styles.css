@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(229, 6%, 66%);
+    font-size: 15px;
+    text-align: center; 
+}
+
+b {
+    color: hsl(234, 12%, 34%);
+}
+
+h1 {
+    line-height: 50%;
+}
+h1 b {
+    font-weight: 600;
+}
+
+#cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.card {
+    margin: 10px;
+    border-radius: 4px;
+    height: 150px;
+    width: 270px;
+    padding: 15px;
+    box-shadow: 3px 4px 7px 0px rgb(193, 203, 218);
+    text-align: left;
+    align-content: flex-end;
+}
+.card p {
+    font-weight: lighter;
+    font-size: small;
+}
+.img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#centrales {
+    display: flex;
+    flex-direction: column;
+}
+
+#super {
+    border-top: solid 4px hsl(212, 86%, 64%)
+    
+}
+#team {
+    border-top: solid 4px hsl(0, 78%, 62%)
+}
+#karma {
+    border-top: solid 4px hsl(34, 97%, 64%)
+}
+#calculator {
+    border-top: solid 4px hsl(212, 86%, 64%)
+}
