@@ -17,6 +17,19 @@ h1 b {
     font-weight: 600;
 }
 
+@media (max-width: 900px) {
+    #cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    footer {
+        margin: 5px;
+    }
+}
+
 #cards {
     display: flex;
     justify-content: center;
